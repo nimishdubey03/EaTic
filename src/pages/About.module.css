@@ -1,0 +1,44 @@
+.about {
+  margin: auto 15rem;
+}
+.about img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 200px;
+  padding: 2rem 0;
+}
+.section_heading {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.section_heading span {
+  color: #06d5e7;
+}
+.para_heading {
+  padding: 1rem 0;
+  font-weight: 800;
+}
+.para p {
+  word-spacing: 2px;
+  font-weight: 400;
+}
+.para span {
+  font-size: large;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 1200px) {
+  .about {
+    margin: auto 5rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .about {
+    margin: auto 1rem;
+  }
+  .about img {
+    width: 200px;
+  }
+}

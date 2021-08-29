@@ -1,0 +1,31 @@
+.recipe {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: linear-gradient(331deg, #b9b9b9 0%, #ffffff96 100%);
+}
+
+.recipe p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.recipe img {
+  height: 10rem;
+  object-fit: cover;
+  transition: transform 0.2s;
+  border-radius: 2px;
+}
+.recipe img:hover {
+  transform: scale(1.05);
+}
+
+@media only screen and (max-width: 310px) {
+  .recipe img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 555px) {
+  .recipe img {
+    height: 10rem;
+    object-fit: cover;
+  }
+}

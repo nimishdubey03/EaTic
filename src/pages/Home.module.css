@@ -1,0 +1,155 @@
+.front {
+  height: 100vh;
+  background-image: url('./../assets/pizza-bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+.front::before {
+  content: '';
+  opacity: 0.7;
+}
+.front h1 {
+  position: absolute;
+  top: 40%;
+  margin-left: 17rem;
+  font-size: 4rem;
+  color: #fcfcfc;
+}
+.front span {
+  color: #00b4c5;
+}
+.front p {
+  position: absolute;
+  top: 60%;
+  margin-left: 17rem;
+  color: #fcfcfc;
+  font-size: 1.5rem;
+}
+.front a {
+  position: absolute;
+  top: 70%;
+  margin-left: 17rem;
+  border: 2px solid;
+  font-weight: 800;
+  padding: 1rem 2rem;
+  background-color: #00b4c5;
+  border-radius: 3px;
+  transition: 0.5s;
+  text-decoration: none;
+  color: #000000;
+}
+.front a:hover {
+  background-color: transparent;
+  border: 2px solid rgb(255, 255, 255);
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  margin: 2rem 2rem;
+}
+
+.search input {
+  height: 2rem;
+  width: 30rem;
+  padding: 1.5rem;
+  outline: 0;
+  border: none;
+  background-color: rgb(223, 223, 223);
+  border-radius: 7px;
+}
+
+.search button {
+  padding: 5px 20px;
+  background-color: #4bc3ce;
+  border: none;
+  border-radius: 7px;
+  margin-left: 5px;
+}
+
+.search button:hover {
+  background-color: #00b4c5;
+}
+
+.recipe {
+  margin: auto 20rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  justify-items: center;
+  grid-row-gap: 20px;
+}
+.main {
+}
+@media only screen and (max-width: 1500px) {
+  .recipe {
+    margin: auto 10rem;
+  }
+  .front h1 {
+    margin-left: 10rem;
+    font-size: 3rem;
+    top: 30%;
+  }
+  .front p {
+    margin-left: 10rem;
+    font-size: 1rem;
+    top: 43%;
+  }
+  .front a {
+    margin-left: 10rem;
+    padding: 0.5rem 1rem;
+    top: 50%;
+  }
+}
+@media only screen and (max-width: 1180px) {
+  .recipe {
+    margin: auto 7rem;
+  }
+  .front h1 {
+    margin-left: 5rem;
+    font-size: 2.5rem;
+    top: 15%;
+  }
+  .front p {
+    margin-left: 5rem;
+    font-size: 1rem;
+    top: 27%;
+  }
+  .front a {
+    margin-left: 5rem;
+    padding: 0.5rem 1rem;
+    top: 35%;
+  }
+}
+@media only screen and (max-width: 555px) {
+  .recipe {
+    margin: 0;
+  }
+  .front {
+    min-height: 60vh;
+    background-image: url('./../assets/pizza-bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+  }
+  .front h1 {
+    font-size: 1.5rem;
+    left: 0;
+    margin: 2px 20px;
+    top: 20%;
+  }
+  .front p {
+    margin: 2px 20px;
+    font-size: 0.7rem;
+    top: 30%;
+  }
+  .front a {
+    margin: 2px 20px;
+    padding: 0.3rem 1rem;
+    top: 37%;
+    font-size: 15px;
+  }
+}
