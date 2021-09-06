@@ -17,15 +17,3 @@
 .recipe img:hover {
   transform: scale(1.05);
 }
-
-@media only screen and (max-width: 310px) {
-  .recipe img {
-    display: none;
-  }
-}
-@media only screen and (max-width: 555px) {
-  .recipe img {
-    height: 10rem;
-    object-fit: cover;
-  }
-}
