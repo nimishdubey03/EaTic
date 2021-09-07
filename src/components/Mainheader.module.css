@@ -47,6 +47,8 @@
   transition: 1s;
 }
 
+/* mobile responsive styling  */
+
 @media only screen and (max-width: 555px) {
   .nav {
     height: 7rem;

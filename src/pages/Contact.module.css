@@ -50,10 +50,8 @@
 
 .last {
   background-color: #c7c7c7;
-  /* display: flex; */
 }
 .inner {
-  /* background-color: #adadad; */
   margin: auto 20rem;
   padding: 2rem;
 }
@@ -98,6 +96,8 @@
   padding-right: 10px;
   margin: 0;
 }
+
+/* mobile responsive styling */
 
 @media only screen and (max-width: 1750px) {
   .inner {
